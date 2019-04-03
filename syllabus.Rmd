@@ -3,8 +3,8 @@ title: "Syllabus"
 author: "Jeremy Morris"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
-  html_document: 
-    theme: cerulean
+  html_document:
+    theme: cosmo
 ---
 
 ```{r setup, include=FALSE}
@@ -15,17 +15,22 @@ library(kableExtra)
 
 ## Course Info
 ### IS 6491: Data Visualization
-_Instructor_: Jeremy Morris   
-_Office_: Off Campus  
-_Email_: (use Canvas direct messages for course-related items; do not use .edu email)  
-_Phone_: 801-573-3265  
-_Office Hours_: SFEBB 8220D, 4:30-5:30 Tue  
-_Twitter_: @seedatarun  
+_Instructor:_ Jeremy Morris   
+_Office:_ Off Campus  
+_Email:_ Canvas only  
+_Phone:_ 801-573-3265  
+_Office Hours:_ Wednesdays, 4:30-5:30pm in SFEBB 7112  
+_Twitter:_ @seedatarun  
 
 Start Date: March 27, 2019  
 Classroom: SFEBB 3180  
 
-This is a draft syllabus and is subject to change as the course start date approaches. Please come back to see changes.
+#### TA Information
+_TA:_ Jasminder Rajput  
+_Email:_ Canvas only  
+_Office Hours:_ Thursday's from 4:30 to 6:30 pm  
+
+This syllabus is subject to change. Please come back and review occasionally to see changes.
 
 ### Required Textbook
 http://www.amazon.com/Storytelling-Data-Visualization-Business-Professionals/dp/1119002257  
@@ -79,7 +84,7 @@ schedule <- tribble(
     'March 27',1,'Course logistics <br> Lecture 1: Introduction to Data Visualization <br> Lab 1: Introduction to RStudio Cloud and R Markdown','Ch. 1 [15]',
     'April 3',2,'Quiz 1 <br> Discussion: Assignment 1 <br> Lecture 2: Choosing an Effective Display <br> Lab 2: Introduction to ggplot','Quiz 1 <br> Ch. 2 [35] <br> Lab 1 submission
 ',
-'Apr 10',3,'Quiz 2 <br> Lecture 3: Cognitive Load and Clutter <br> Lecture 4: Directing the Audience <br> Lab 3: Introduction to ggplot', 'Quiz 2 <br> Ch. 3 [28]; Ch. 4 [26] <br> Assignment 1 <br> Lab 2 submission',
+'Apr 10',3,'Quiz 2 <br> Tableau Demo (Tentative) <br> Lecture 3: Cognitive Load and Clutter <br> Lecture 4: Directing the Audience <br> Lab 3: Introduction to ggplot', 'Quiz 2 <br> Ch. 3 [28]; Ch. 4 [26] <br> Assignment 1 <br> Lab 2 submission',
 'April 17', 4,'Quiz 3 <br> Lecture 5: Design Best Practices <br> Lecture 6: Using Stories <br> Lecture 7: Analyzing Design Choices <br> Lab 4: Intermediate ggplot <br> Exam Review','Quiz 3 <br> Ch. 5[24]; Ch. 6 [13]; Ch. 7 [21] <br> Lab 3 submission',
 'April 24',5,'Exam <br> (optional) Lab 5: Reports and Dashboards in R/Shiny', 'Lab 4 submission <br> Assignment 2 <br> Exam'
 ) %>%
@@ -150,16 +155,16 @@ Because of the importance of professional and ethical behavior in business, and 
 ### Statement of Grading Policy
 Grading provides feedback to students on how well they have mastered the content and learning objectives of a particular course to allow students to capitalize on strengths and work to improve weaknesses through future courses of action. The DESB grading policy is intended to ensure grades offer reliable feedback regarding student performance, and to ensure fairness and consistency across the School. The faculty member is responsible for arriving at a grade for each student that the faculty member believes appropriately reflects the student's mastery of the course material and learning objectives. The faculty member will then consider the class' overall performance in terms of School guidelines. These guidelines are provided to ensure that grading, on average for the School as a whole, is sustained at a reasonable level over time. The guidelines are as follows:
 
-### Course Level
-Guideline
-1000-2000
-2.4-2.8
-3000-3990
-2.6-3.0
-4000-5990
-2.8-3.2
-6000-6990
-3.1-3.5
+```{r guideline_table,echo=F}
+guideline <- tribble(
+    ~`Course Level`, ~ Guideline,
+    '1000-2000','2.4-2.8',
+    '3000-3990','2.6-3.0',
+    '4000-5990','2.8-3.2',
+    '6000-6990','3.1-3.5'
+)
+knitr::kable(guideline) %>% kable_styling(c('striped'),full_width = F,position='left') %>% column_spec(1, bold = T, border_right = T)
+```
 
 If students have a concern about their grade in a particular course, they should consider whether it reflects an accurate evaluation of their mastery of the course material and learning objectives, in terms of the above descriptors. If they need clarification of the instructor's evaluation, they should meet with the instructor to obtain additional information and feedback. If after doing so, they believe their grade was arrived at in an inappropriate manner, they may pursue an appeal through the School's appeals process as described in Section 5.15 of the University of Utah Code of Student Rights and Responsibilities (Policy 6-400).
 Use of Electronic Devices in Exams

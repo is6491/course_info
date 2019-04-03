@@ -1,0 +1,114 @@
+---
+title: "Quiz 2 Review"
+output: 
+  html_document: 
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Lecture 2
+		
+* A small set of visualizations can handle the majority of visualization requirements
+* Verbal System
+	* Interacting with Verbal System == reading; therefore relatively slow in processing information
+	* Simple text
+	* Tables
+	* Heatmap
+* Visual System
+	* Interacting with Visual System is relatively fast in processing information
+	* Points
+		* Scatterplot
+		* Line graph
+		* Slopegraph
+	* Bars
+		* Vertical bar
+		* Stacked vertical bar	
+		* Waterfall
+		* Horizontal bar
+		* Stacked horizontal bar
+	* Area
+		* Square area
+	* Other
+		* Pies and Donuts
+		* 3D
+		* Secondary axes
+* Simple Text
+	* One or two numbers to share
+	* Number(s) should be prominent with a few supporting words
+	* If a graph does little or nothing to aid in the interpretation, don’t use it
+	* Considerations:
+		* convert two numbers into a single number (only if important context is not lost)
+* Table
+	* Used for reading across rows and down columns/comparing values
+	* Good for:
+		* mixed audience: each member can examine what they care about most
+		* mixed scales: when data have mixed scales (e.g. age and income) some graphs can be challenging
+	* Not good for:
+		* Live presentations
+	* Considerations:
+		* Borders and shading should enhance the legibility of the table; remove/fade them accordingly
+* Table/Heatmap
+	* Concept: benefits of a table using color/color saturation is visual cue to improve processing of information
+* Scatterplot
+	* Useful for showing relationship between two variables
+	* Can quickly see groups of points based on proximity
+	* Can quickly see correlation (if it exists)
+* Line Graph
+	* Useful for continuous (as opposed to categorical) data
+		* Very common to connect data across  time for several time periods
+	* Considerations:
+		* Number of series:
+* Single, two, more than two
+* Variance – think about smoothing the lines if variance is too distracting. Smoothing can be done by removing points or by taking rolling averages.
+		* Consistent time units on x-axis
+		* Non-zero baseline is okay (due to relative comparisons)
+* Slopegraph
+	* Useful for two time periods and multiple points of comparison
+	* Can efficiently observe:
+		* Increase vs. decrease
+		* relative rates of increase/decrease
+	* Very useful but not broadly supported (for some reason).
+* Bars
+	* Concept: Bars sometimes avoided due to them being common
+		* Consider using bars because the are common and will therefore have limited/no learning curve for the audience
+	* Useful for categorical (as opposed to continuous) data
+		* Can efficiently observe:
+* Largest/smallest value
+* Differences between categories
+	* Considerations:
+		* Y-axis on the left (as opposed to right based on how people read)
+		* Zero baseline
+		* Reduce redundant information (e.g. bar and axis labels)
+		* Bar labels (detail) vs. axis labels (big picture)
+		* Width of bars (Goldilocks concept: too thin, too thick, just right)
+		* One, two and more than two series
+		* Non-stacked (many use cases) vs. stacked (relative few use cases)
+		* Stacked:
+* Absolute values vs. percentage of whole
+* Can be difficult to see differences between bars not on the axis.
+		* Horizontal bar chart is very easy to read and produce
+* one reason: labels are on the y-axis
+* Waterfall
+	* Useful for examining:
+		* each part of stacked bar chart individually
+		* or, showing a start point, multiple increases/decreases, then an end point
+	* will generally see these when looking at HR or Finance data
+* Square Area Chart
+	* Useful for visualizing numbers of vastly different magnitudes
+	* Concept:
+		* Squares provide two dimensions (height and width)
+		* Bars just provide height or width)
+* What not to do 
+	* Pies and Donuts
+		* Simply put, humans struggle to understand relative differences between circles as compared to rectangles
+	* 3D – “never do it”
+		* Unnecessary information to process
+	* Secondary y-axis
+		* Users may not interpret series based on the right-hand y-axis properly
+
+## Lab 2
+

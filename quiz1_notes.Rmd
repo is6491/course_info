@@ -1,0 +1,63 @@
+---
+title: "Quiz 1 Review"
+output: 
+  html_document: 
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Lecture 1  
+* Anscombe’s Quartet
+	* Four data sets with the same summary statistics
+	* When visualized, they tell very different stories
+	* When data is visualized it can highlight things in the data not seen when simply looking at the data.
+* William Playfair (1780’s): credited for inventing
+	* Line chart
+	* Area chart
+	* Bar Chart
+	* Pie Chart
+* Playfair created many of the elements that are used today.
+	* Axis
+	* Use of color
+	* Gridlines
+	* Label
+* Lack of trended data led Playfair to create the bar chart
+* John Snow (physician) was skeptical of dominant theory that the disease was airbourne
+	* Plotted locations of cholera cases
+	* Central to the (scatter) plot was a public water pump (the source of the spread of the disease)
+* Think about context when creating a visualization. The elements of context are as follows.
+	* Who
+        * Consider carefully your audience.
+        * Your relationship with the audience could have a large impact on your work.
+	* What
+        * You should want them to do something at the end.
+        * It can be uncomfortable to make suggestions. Do so with care.
+        * At the very least, there should be next steps.
+    * How
+        * Delivery method.
+        * Will depend on the audience, what you want them to do and other factors.
+    	    * Delivery mechanism needs to be considered carefully. In class we discussed how different delivery methods work for different purposes. Our text mentions that there is a sliding scale starting with a live presentation and ending with an email. Be familiar with figure 1.1 in the text.
+* The Nussbaumer data visualization process.
+	* Understand the context
+	* Choose an appropriate display
+	* Eliminate clutter
+	* Draw attention where you want it
+	* Think like a designer
+	* Tell a story
+
+## Lab 1
+
+* __R__ – a programming language designed for statistical analysis and data visualization
+* __RStudio__ – RStudio is a free and open-source integrated development environment for R, a programming language for statistical computing and graphics. 
+	* An integrated development environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools, and a debugger.
+* __RMarkdown__ - a language that allows you to mix raw text/markdown with code chunks from various languages.
+* To render an R Markdown file, you can do one of the following.
+    * Use the Knit button - this will run your Rmd file in its own session
+    * Use the command `rmarkdown::render('filename')` - this will run the Rmd file in the current session
+* To include code in your RMarkdown file, you need to start the code block with \`\`\`\{r} and end with \`\`\`
+    * note that we're using the "backtick" character (usually next to the 1 on your keyboard)
+    * multiple lines of code can be included w/in the code block
