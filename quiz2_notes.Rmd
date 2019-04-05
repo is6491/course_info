@@ -112,3 +112,26 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Lab 2
 
+* ggplot2 is an R package based on a book called the Grammar of Graphics
+    * is composed of a set of independent components that can be composed in many different ways.
+    * Plots can be built up iteratively and edited later.
+    * ggplot2 is designed to work in a layered fashion, starting with a layer showing the raw data then adding layers of annotation and statistical summaries.
+* `qplot` is a ggplot2 function to create simple plots.
+    * it also mimics the base `plot` function
+* You must specify the following for `qplot` to work
+    * The __data__ parameter which tells qplot which data set it will use to render the plot.
+    * At least one variable from the specified data set.
+    * If this is done, `qplot` will generate a bar plot
+* The `qplot` requires the following parameters.
+    * __x__ : a variable from a given data set.
+    * __data__ : the data set to use when rendering the plot.
+    * __geom__ : geom is short for 'geometric object' and specifies the type of chart that will be drawn.
+    * __y__ : a value for the y-axis is sometimes needed depending on the "geom" that is specified.
+* `qplot` can take the following options to customize a chart. 
+    * __shape__ : controls the shape of points in a scatterplot
+    * __color__ : controls the color of the outline of objects
+    * __fill__ : controls the color of the interior portion of objects
+    * __size__ : size of points in a scatterplot
+* chart customizations can take either a fixed value or a value specified from a variable in the data set specified in the __data__ parameters.
+* (bonus info) customizations are called "aesthetic mappings"
+* an array of geometric objects can be specified
