@@ -62,8 +62,8 @@ knitr::opts_chunk$set(echo = TRUE)
 		* Very common to connect data across  time for several time periods
 	* Considerations:
 		* Number of series:
-* Single, two, more than two
-* Variance – think about smoothing the lines if variance is too distracting. Smoothing can be done by removing points or by taking rolling averages.
+            * Single, two, more than two
+            * Variance – think about smoothing the lines if variance is too distracting. Smoothing can be done by removing points or by taking rolling averages.
 		* Consistent time units on x-axis
 		* Non-zero baseline is okay (due to relative comparisons)
 * Slopegraph
@@ -77,9 +77,9 @@ knitr::opts_chunk$set(echo = TRUE)
 		* Consider using bars because the are common and will therefore have limited/no learning curve for the audience
 	* Useful for categorical (as opposed to continuous) data
 		* Can efficiently observe:
-* Largest/smallest value
-* Differences between categories
-	* Considerations:
+    * Largest/smallest value
+    * Differences between categories
+	* Considerations:  
 		* Y-axis on the left (as opposed to right based on how people read)
 		* Zero baseline
 		* Reduce redundant information (e.g. bar and axis labels)
@@ -88,10 +88,10 @@ knitr::opts_chunk$set(echo = TRUE)
 		* One, two and more than two series
 		* Non-stacked (many use cases) vs. stacked (relative few use cases)
 		* Stacked:
-* Absolute values vs. percentage of whole
-* Can be difficult to see differences between bars not on the axis.
+            * Absolute values vs. percentage of whole
+            * Can be difficult to see differences between bars not on the axis.
 		* Horizontal bar chart is very easy to read and produce
-* one reason: labels are on the y-axis
+            * one reason: labels are on the y-axis
 * Waterfall
 	* Useful for examining:
 		* each part of stacked bar chart individually
@@ -132,6 +132,6 @@ knitr::opts_chunk$set(echo = TRUE)
     * __color__ : controls the color of the outline of objects
     * __fill__ : controls the color of the interior portion of objects
     * __size__ : size of points in a scatterplot
-* chart customizations can take either a fixed value or a value specified from a variable in the data set specified in the __data__ parameters.
+* chart customizations can take either a fixed value or a value specified from a variable in the data set specified in the __data__ parameter.
 * (bonus info) customizations are called "aesthetic mappings"
 * an array of geometric objects can be specified
