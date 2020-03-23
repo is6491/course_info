@@ -7,17 +7,14 @@ Course Info
 *Office:* Off Campus  
 *Email:* Canvas only  
 *Phone:* 801-573-3265  
-*Office Hours:* Wednesdays, 4:30-5:30pm in SFEBB 5155  
+*Office Hours:* On Request  
 *Twitter:* @seedatarun
 
-Start Date: March 27, 2019  
-Classroom: SFEBB 3180
+Start Date: March 25, 2020 Classroom: Online
 
 #### TA Information
 
-*TA:* Jasminder Rajput  
-*Email:* Canvas only  
-*Office Hours:* Thursdays, 4:30-6:30 pm in SFEBB 163
+There will be no TA this semster. Please direct any questions to me.
 
 This syllabus is subject to change. Please come back and review
 occasionally to see changes.
@@ -30,6 +27,16 @@ occasionally to see changes.
 
 <a href="https://www.amazon.com/ggplot2-Elegant-Graphics-Data-Analysis/dp/0387981403" class="uri">https://www.amazon.com/ggplot2-Elegant-Graphics-Data-Analysis/dp/0387981403</a>  
 <a href="https://www.amazon.com/Data-Science-Transform-Visualize-Model/dp/1491910399" class="uri">https://www.amazon.com/Data-Science-Transform-Visualize-Model/dp/1491910399</a>
+
+### Online Logistics
+
+Because we are now doing this course online, you will be responsible for
+attending or watching a recording of our weekly webinar. This webinar
+will be conducted on Zoom at 7pm each Wednesday starting on March 25th.
+Please log in to the meeting using the following information.
+
+<a href="https://utah.zoom.us/j/902586946" class="uri">https://utah.zoom.us/j/902586946</a>  
+Meeting ID: 902 586 946
 
 ### Canvas
 
@@ -126,7 +133,7 @@ Due
 <tbody>
 <tr>
 <td style="text-align:left;font-weight: bold;border-right:1px solid;">
-March 27
+March 25
 </td>
 <td style="text-align:left;border-right:1px solid;">
 <span style="     text-align: center;">1</span>
@@ -141,7 +148,7 @@ Ch. 1 \[15\]
 </tr>
 <tr>
 <td style="text-align:left;font-weight: bold;border-right:1px solid;">
-April 3
+April 1
 </td>
 <td style="text-align:left;border-right:1px solid;">
 <span style="     text-align: center;">2</span>
@@ -156,7 +163,7 @@ Quiz 1 <br> Ch. 2 \[35\] <br> Lab 1 submission
 </tr>
 <tr>
 <td style="text-align:left;font-weight: bold;border-right:1px solid;">
-Apr 10
+Apr 8
 </td>
 <td style="text-align:left;border-right:1px solid;">
 <span style="     text-align: center;">3</span>
@@ -173,7 +180,7 @@ submission
 </tr>
 <tr>
 <td style="text-align:left;font-weight: bold;border-right:1px solid;">
-April 17
+April 15
 </td>
 <td style="text-align:left;border-right:1px solid;">
 <span style="     text-align: center;">4</span>
@@ -190,7 +197,7 @@ submission
 </tr>
 <tr>
 <td style="text-align:left;font-weight: bold;border-right:1px solid;">
-April 24
+April 22
 </td>
 <td style="text-align:left;border-right:1px solid;">
 <span style="     text-align: center;">5</span>
