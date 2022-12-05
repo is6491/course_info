@@ -1,15 +1,25 @@
 ---
-title: "Syllabus"
+title: "IS 6491 Syllabus"
 author: "Jeremy Morris"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
-output: 
-  html_document:
-    theme: cosmo
-always_allow_html: yes
+affiliation-title: "University of Utah"
+date: last-modified
+title-block-style: default
+title-block-banner: '#CC0000'
+format: 
+  html:
+      embed-resources: true
+      theme: flatly
+      code-block-bg: true
+      code-block-border-left: "#31BAE9"
+      highlight-style: printing
+execute:
+    echo: false
+    warning: false
+    error: false
+    prefer-html: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup}
 library(tidyverse)
 library(kableExtra)
 ```
@@ -23,11 +33,12 @@ _Phone:_ 801-573-3265
 _Office Hours:_ On Request  
 _Twitter:_ @seedatarun  
 
-Start Date: March 25, 2020
-Classroom: Online
+Start Date: November 1, 2022  
+Classroom: SFEBB 5130
 
 #### TA Information
-There will be no TA this semster. Please direct any questions to me.
+*TA*: Jonathan Rossi  
+*Email*: u0958682@utah.edu
 
 This syllabus is subject to change. Please come back and review occasionally to see changes.
 
@@ -37,13 +48,6 @@ http://www.amazon.com/Storytelling-Data-Visualization-Business-Professionals/dp/
 #### Optional Textbooks
 https://www.amazon.com/ggplot2-Elegant-Graphics-Data-Analysis/dp/0387981403  
 https://www.amazon.com/Data-Science-Transform-Visualize-Model/dp/1491910399  
-
-### Online Logistics
-Because we are now doing this course online, you will be responsible for attending or watching a recording of our weekly webinar. This webinar will be conducted on Zoom at 7pm each Wednesday starting on March 25th. Please log in to the meeting using the following information.
-
-https://utah.zoom.us/j/902586946  
-Meeting ID: 902 586 946
-
 
 ### Canvas  
 All other course materials are available on Canvas.
@@ -68,7 +72,7 @@ The labs provide students the opportunity to learn the required data visualizati
 There are three (3) quizzes.  Each quiz will cover only new material relative to the previous quiz or from the start of the course in the case of the first quiz.  Material for each quiz will be taken from the lectures and assigned readings.
 
 ### Examinations
-There is one (1) closed-book exam.  An exam review will be provided the week prior to the exam.  Exam rescheduling requests will be considered only in extraordinary circumstances.
+There is one (1) open-book exam.  An exam review will be provided the week prior to the exam.  Exam rescheduling requests will be considered only in extraordinary circumstances.
 
 ### Late/Incorrect Submissions
 Late submissions will have a 10% per day grade reduction.  
@@ -87,12 +91,12 @@ For the assigned reading items below the number in the square brackets indicates
 ```{r schedule,echo=FALSE}
 schedule <- tribble(
     ~Date,~Week,~Topic,~Due,
-    'March 25',1,'Course logistics <br> Lecture 1: Introduction to Data Visualization <br> Lab 1: Introduction to RStudio Cloud and R Markdown','Ch. 1 [15]',
+    'March 25',1,'Course logistics <br> Lecture 1: Introduction to Data Visualization <br> Lab 1: Introduction to RStudio Cloud and Quarto','Ch. 1 [15]',
     'April 1',2,'Quiz 1 <br> Discussion: Assignment 1 <br> Lecture 2: Choosing an Effective Display <br> Lab 2: Introduction to ggplot','Quiz 1 <br> Ch. 2 [35] <br> Lab 1 submission
 ',
-'Apr 8',3,'Quiz 2 <br> Tableau Demo (Tentative) <br> Lecture 3: Cognitive Load and Clutter <br> Lecture 4: Directing the Audience <br> Lab 3: Introduction to ggplot', 'Quiz 2 <br> Ch. 3 [28]; Ch. 4 [26] <br> Assignment 1 <br> Lab 2 submission',
-'April 15', 4,'Quiz 3 <br> Lecture 5: Design Best Practices <br> Lecture 6: Using Stories <br> Lecture 7: Analyzing Design Choices <br> Lab 4: Intermediate ggplot <br> Exam Review','Quiz 3 <br> Ch. 5[24]; Ch. 6 [13]; Ch. 7 [21] <br> Lab 3 submission',
-'April 22',5,'Exam <br> (optional) Lab 5: Reports and Dashboards in R/Shiny', 'Lab 4 submission <br> Assignment 2 <br> Exam'
+'Apr 8',3,'Quiz 2 <br> Lecture 3: Cognitive Load and Clutter <br> Lecture 4: Directing the Audience <br> Lab 3: Introduction to ggplot', 'Quiz 2 <br> Ch. 3 [28]; Ch. 4 [26] <br> Assignment 1 <br> Lab 2 submission',
+'April 15', 4,'Quiz 3 <br> Lecture 5: Design Best Practices <br> Lecture 6: Using Stories <br> Lab 4: Intermediate ggplot <br> Exam Review','Quiz 3 <br> Ch. 5[24]; Ch. 6 [13]; Ch. 7 [21] <br> Lab 3 submission',
+'April 22',5,'Final Exam', 'Lab 4 submission <br> Assignment 2 <br> Exam'
 ) %>%
     mutate(Week=cell_spec(Week, align = "center"))
 
